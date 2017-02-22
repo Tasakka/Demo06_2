@@ -26,5 +26,19 @@ namespace Teht02
         {
             this.InitializeComponent();
         }
+
+        private void Markkabutton_Click(object sender, RoutedEventArgs e)
+        {
+            double money = double.Parse(MoneytextBox.Text) / 6;
+            string value = money.ToString("0.00");
+            MoneytextBox.Text = value;
+        }
+
+        private void Eurobutton_Click(object sender, RoutedEventArgs e)
+        {
+            double money = double.Parse(MoneytextBox.Text) * 6;
+            string value = money.ToString("0.00");
+            MoneytextBox.Text = value;
+        }
     }
 }

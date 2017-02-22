@@ -8,6 +8,8 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
+        <Button x:Name="Markkabutton" Content="Muuta markoiksi" HorizontalAlignment="Left" Margin="151,455,0,0" VerticalAlignment="Top" Height="124" Width="252" FontSize="25" Click="Markkabutton_Click"/>
+        <TextBox x:Name="MoneytextBox" HorizontalAlignment="Left" Margin="551,124,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="152" Width="191" FontSize="25" TextAlignment="Center"/>
+        <Button x:Name="Eurobutton" Content="Muuta euroiksi" HorizontalAlignment="Left" Margin="833,455,0,0" VerticalAlignment="Top" Height="124" Width="252" FontSize="25" Click="Eurobutton_Click"/>
     </Grid>
 </Page>
